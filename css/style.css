@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: gold;
+    padding: 19px 12px 
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 0 13px;
+}
+ul li a{
+    color: #ffd700;
+    text-decoration: none;
+}
+ul li a:hover
+{
+    color: darkgoldenrod;
+
+}
+main {
+    min-height:85vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+
+}
+footer 
+{
+    font-size: 12px;
+    background-color: black;
+    color: gold;
+    display: felx;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    background-color: rgba(255, 255, 255, 0.084);
+    max-width: 75vw;
+    margin:auto;
+    padding:24px;
+    gap:20px;
+    /* border: 1px solid;
+    border-radius: 7px; */
+}
+.container h1{
+    padding: 12px;
+
+}
+input[type='text']{
+    min-width:23vw;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 3px 12p;
+    font-size: 20px;
+    margin:20px
+}
+#resultCont div::first-letter{
+    text-transform: uppercase;
+}
+.btn{
+    background: black;
+    color: white;
+    padding: 9px 15px;
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: goldenrod;
+    color:black;
+}
+
+.logo img{
+    width: 15px;
+}
+@media only screen and (max-width: 500px)
+{
+
+    .container
+    {
+        font-size:12px;
+    }
+    nav-{
+        flex-direction: column;
+    }
+.logo{
+    padding: 6px 0 ;
+    font-size:20px;
+}
+.logo span{
+    font-size: 20px;
+}
+.logo img{
+       width: 15px;
+}
+   }
